@@ -1,0 +1,64 @@
+/*Collapsable tables*/
+.bgdown{
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(125,185,232,0) 32%, rgba(101,161,212,0) 49%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125,185,232,0) 32%,rgba(101,161,212,0) 49%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125,185,232,0) 32%,rgba(101,161,212,0) 49%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
+    height: 500px;
+    position: fixed;
+    bottom: 0%;
+    z-index: -6;
+    opacity: 0.4;
+}
+
+
+#accordion {
+    margin-top: 50px;
+}
+
+#headingone {
+    background-image: url("../img/header1.jpg");
+}
+
+#headingTwo {
+    background-image: url("../img/header2.jpg");
+}
+
+#headingThree {
+    background-image: url("../img/header3.jpg");
+}
+
+#headingfour {
+    background-image: url("../img/header4.jpg");
+
+}
+
+#headingfive {
+    background-image: url("../img/header5.jpg");
+
+}
+
+#headingsix {
+    background-image: url("../img/header6.jpg");
+}
+
+#accordion .collapse {
+    background-color: #ecf2f6;
+}
+
+#accordion .collapse .show {
+    background-color: #ecf2f6;
+}
+
+.collapsing {
+    background-color: #ecf2f6;
+}
+
+@media screen and (max-width: 600px) {
+    .b1 {
+       display: none;
+    }
+    
+    .btn-success{
+        opacity: 0.5;!important
+    }
